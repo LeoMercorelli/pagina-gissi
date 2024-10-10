@@ -1,0 +1,1402 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+
+
+/*! ============== REGLAS GENERALES ============== */
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*! =========== FIN DE REGLAS GENERALES =========== */
+
+
+
+
+
+
+
+
+/*! ============ INICIO ELEMENTOS FLOTANTES ============= */
+.whatsapp{
+    position: fixed;
+        bottom: 12px;right: 50px;
+}
+
+.whatsapp img{
+    height: 75px;width: 75px;
+}
+/*! ============= FIN ELEMENTOS FLOTANTES ============== */
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ======================================== */
+/*! =========== INICO ENCABEZADO =========== */
+/*! ======================================== */
+
+/*  CONFIGURACION GENERAL */
+header{
+    background-color: white;
+}
+
+header img{
+    height: 150px;width: 150px;
+}
+
+header a{
+    height: 28vh;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+
+
+/* BARRA DE NAVEGACION */
+header nav ul{
+    height: 7vh;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+header nav ul li a{
+    color: #684700;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    width: 200px;height: 45px;
+    font-size: 30px;
+background-color: rgba(0, 0, 0, 0.288);}
+/*! ====================================== */
+/*! =========== FIN ENCABEZADO =========== */
+/*! ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ============================================ */
+/*! =========== INICIO PIE DE PAGINA =========== */
+/*! ============================================ */
+
+/* CONFIGURACION GENERAL */
+footer{
+    background-image: url(../Img/fondos/fondo-footer.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+}
+
+footer h2{
+    color: #684700;
+    padding: 18px;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.footer-contenedor{
+    height: 40vh;
+
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+
+
+/* INICIO DEL BARRA DE NAVEGACION */
+footer div .nav-footer{
+    width: 400px;
+    margin-left: 50px;
+}
+
+footer div .nav-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div .nav-footer ul li a{
+    color: black;
+    font-size: 25px;
+}
+/* FIN DE BARRA DE NAVEGACION */
+
+
+
+
+/* INICIO DE LOS ICONOS CENTRALES */
+footer div .logos-footer{
+    width: 400px;
+    display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.logopie{
+    height: 200px;width: 200px;
+    display: inline-block;
+}
+.facebook {
+    height: 5vh;width: 5vh;
+    display: inline-block;
+}
+.instagram {
+    height: 5vh;width: 5vh;
+    display: inline-block;
+}
+
+footer .footer-contenedor .logos-footer div img{
+    padding: 1vh;
+}
+/* FIN DE LOS ICONOS CENTRALES */
+
+
+
+
+
+/* INICIO DE INFO FOOTER */
+
+footer .footer-contenedor .info-footer{
+    margin-right: 50px;
+    width: 400px;
+}
+
+footer .footer-contenedor .info-footer h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+footer .footer-contenedor .info-footer p{
+    padding: 0px;
+    margin: 0px;
+}
+/* FIN DE INFO FOOTER */
+/*! ========================================= */
+/*! =========== FIN PIE DE PAGINA =========== */
+/*! ========================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INICIO DEL INDEX!!!!!!!!!!!!!!!! ====================== */
+/*! =========== HERO (1RA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.hero{
+    background-image: url(../Img/fondos/fondo-hero.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
+
+    text-align: center;
+
+    height: 69vh;
+
+    display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.hero h1{
+    font-size: 37px;
+    color: #684700;
+}
+
+.hero a{
+    text-decoration: none;
+    background-color: hsl(27, 97%, 44%);
+    color: black;
+    font-size: 23px;
+
+    width: auto;
+    padding: 10px;
+
+    border: 1px solid black;
+        border-radius: 25px;
+}
+
+.hero p{
+    font-size: 37px;
+    color: #684700;
+}
+/*! =========== FIN DEL HERO (1RA SECTION) =========== */
+
+
+
+
+
+
+
+
+
+
+/*! =========== SERVICIOS (2DA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.servicios{
+    background-color: #F1E5E7;
+    text-align: center;
+}
+
+.servicios h2{
+    color: #684700;
+    padding: 18px;
+    font-size: 35px;
+}
+
+
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.servicios .servicios-contenedor{
+    height: 75vh;
+
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+
+/* CONFIGURACION DE LAS TARJETAS DE SERVICIOS */
+.servicios .servicios-contenedor div{
+    width: 300px; height: 45vh;
+}
+.servicios .servicios-contenedor div:hover{
+    width: 400px; height: 70vh;
+}
+
+
+.servicios .servicios-contenedor img{
+    height: 300px;width: 300px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+        border-radius: 50%;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+        -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+.servicios .servicios-contenedor img:hover{
+    height: 400px;width: 400px;
+}
+
+.servicios .servicios-contenedor .boton1{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 30px;padding-left: 30px;
+    padding-top: 10px;padding-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+.servicios .servicios-contenedor .boton2{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 30px;padding-left: 30px;
+    padding-top: 10px;padding-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+.servicios .servicios-contenedor .boton3{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 30px;padding-left: 30px;
+    padding-top: 10px;padding-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+
+.servicios .servicios-contenedor a{
+    font-size: 25px;
+}
+
+/*! =========== FIN DEL SERVICIOS (2DA SECTION) =========== */
+
+
+
+
+
+
+
+
+
+
+/*! =========== DISENOS (3RA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.disenos{
+    height: 170vh;
+    text-align: center;
+    background-color: white;
+}
+
+.disenos h2{
+    color: #684700;
+    padding: 18px;
+    font-size: 35px;
+}
+
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.disenos .disenos-contenedor{
+    height: 150vh;
+    margin-top: 50px;
+}
+
+.disenos .disenos-contenedor div img{
+    width: 100%;
+    height: 100%;
+}
+
+.disenos .disenos-contenedor div{
+    position: relative;
+    box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+    -moz-box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+}
+.disenos .disenos-contenedor div h3{
+    position: absolute;
+    bottom: 0px;
+    background-color: #d6970f60;
+    width: 100%;
+    text-align: end;
+    padding-right: 15px;
+}
+
+/* CONFIGURACION DE LA GALERIA */
+.disenos .disenos-contenedor{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-column: span 2;
+}
+
+.img-5{
+    grid-row: span 2;
+}
+
+/*! =========== FIN DEL DISENOS (3RA SECTION) =========== */
+/*! ====================== !!!!!!!!!!!!!FIN DEL INDEX!!!!!!!!!!!!!!!! ====================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INCIO DE BORDADO!!!!!!!!!!!!!!!! ====================== */
+/*! =========== HERO (1RA SECTION) =========== */
+.hero-bordado{
+    height:65vh;
+    background-color: #FEE7C8;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-bordado div{
+    width: 700px;
+}
+
+.hero-bordado div p{
+    font-size: 20px;
+}
+
+
+
+/*! =========== DISEÑOS (2DA SECTION) =========== */
+.disenos-contenedor-bordado{
+    height: 73vh;
+    background-color: #E0BA7C;
+}
+
+.disenos-contenedor-bordado h1{
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.disenos-tarjetas-bordado{
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.disenos-tarjetas-bordado img{
+    height: 300px;width: 300px;
+    border:black 2px solid;
+    border-radius: 50%;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+
+.disenos-tarjetas-bordado h3{
+    padding: 20px;
+}
+
+
+/*! =========== PREGUNTAS FRECUENTES (3RA SECTION) =========== */
+.preguntas-frecuentes-contenedor-bordado{
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEE7C8;
+}
+
+.preguntas-frecuentes-contenedor-bordado h3{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.acordeon-bordado{
+    width: 900px;
+    margin: 30px;
+}
+/*! ====================== !!!!!!!!!!!!!FIN DE BORDADO!!!!!!!!!!!!!!!! ====================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INCIO DE LASER!!!!!!!!!!!!!!!! ====================== */
+/*! =========== HERO (1RA SECTION) =========== */
+.hero-laser{
+    height:65vh;
+    background-color: #F1E5E7;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-laser div{
+    width: 700px;
+}
+
+.hero-laser div p{
+    font-size: 20px;
+}
+
+
+
+/*! =========== DISEÑOS (2DA SECTION) =========== */
+.disenos-contenedor-laser{
+    height: 73vh;
+    background-color: #EC94D0;
+}
+
+.disenos-contenedor-laser h1{
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.disenos-tarjetas-laser{
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.disenos-tarjetas-laser img{
+    height: 300px;width: 300px;
+    border:black 2px solid;
+    border-radius: 50%;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+
+.disenos-tarjetas-laser h3{
+    padding: 20px;
+}
+
+
+/*! =========== PREGUNTAS FRECUENTES (3RA SECTION) =========== */
+.preguntas-frecuentes-contenedor-laser{
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1E5E7;
+}
+
+.preguntas-frecuentes-contenedor-laser h3{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.acordeon-laser{
+    width: 900px;
+    margin: 30px;
+}
+/*! ====================== !!!!!!!!!!!!!FIN DE LASER!!!!!!!!!!!!!!!! ====================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INCIO DE HOTFIX!!!!!!!!!!!!!!!! ====================== */
+/*! =========== HERO (1RA SECTION) =========== */
+.hero-hotfix{
+    height:85vh;
+    background-color: #E2F1E9;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.hero-hotfix div{
+    width: 70%;
+    margin: 20px;
+}
+
+.hero-hotfix div p{
+    font-size: 20px;
+}
+
+
+
+/*! =========== DISEÑOS (2DA SECTION) =========== */
+.disenos-contenedor-hotfix{
+    height: 73vh;
+    background-color: #95DBE7;
+}
+
+.disenos-contenedor-hotfix h1{
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.disenos-tarjetas-hotfix{
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.disenos-tarjetas-hotfix img{
+    height: 300px;width: 300px;
+    border:black 2px solid;
+    border-radius: 50%;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+
+.disenos-tarjetas-hotfix h3{
+    padding: 20px;
+}
+
+
+
+
+/*! =========== TACHAS (3RA SECTION) =========== */
+.tachas-contenedor{
+    height: 73vh;
+    background-color: #95DBE7;
+}
+
+.tachas-contenedor h1{
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+    border-top: black solid 3px;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.tachas-tarjetas{
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tachas-tarjetas img{
+    height: 300px;width: 300px;
+}
+
+.tachas-tarjetas div{
+    border:black 2px solid;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+.tachas-tarjetas h3{
+    padding: 20px;
+    margin: 0px;
+    width: 300px;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*! =========== PREGUNTAS FRECUENTES (4TA SECTION) =========== */
+.preguntas-frecuentes-contenedor-hotfix{
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.preguntas-frecuentes-contenedor-hotfix h3{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.acordeon-hotfix{
+    width: 60%;
+    margin: 30px;
+}
+/*! ====================== !!!!!!!!!!!!!FIN DE HOTFIX!!!!!!!!!!!!!!!! ====================== */
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INCIO DE CONTACTO!!!!!!!!!!!!!!!! ====================== */
+.hero-contacto{
+    height: 40vh;
+    background-color: #BFF0B0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-contacto h1{
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.hero-contacto p{
+    text-align: center;
+    width: 600px;
+}
+
+.formulario{
+height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario div{
+margin-bottom: 30px;
+}
+
+.formulario h2{
+    font-size: 25px;
+        text-decoration: none;
+        background-color: #BFF0B0;
+        color: white;
+        padding-right: 20px;padding-left: 20px;
+        padding-top: 10px;padding-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+    }
+
+
+.info-contacto-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    text-align: center;
+}
+
+.info-contacto-contenedor h2{
+    font-size: 24px;
+}
+
+.info-contacto-contenedor p{
+    font-size: 14px;
+}
+.mapa-contacto-contenedor{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*! ====================== !!!!!!!!!!!!!FIN DE CONTACTO!!!!!!!!!!!!!!!! ====================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! ====================== !!!!!!!!!!!!!INICIO RESPONSIVE!!!!!!!!!!!!!!! ====================== */
+/*! =================================== */
+/*! =========== INICO INDEX =========== */
+/*! =================================== */
+
+@media (min-width:1170px) and (max-width:1550px){
+/*! =========== DISENOS (3RA SECTION) =========== */
+/* CONFIGURACION DE LA GALERIA */
+
+
+.disenos-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.disenos .disenos-contenedor{
+    grid-template-columns: 350px 350px 350px;
+}
+
+
+.img-3{
+    grid-column: span 2;
+}
+
+.img-5{
+    display: none
+}
+
+.tarj-2{
+    display: none
+}
+
+/*! =========== FIN DEL DISENOS (3RA SECTION) =========== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1170px){
+/*! =========== HERO (1RA SECTION) =========== */
+/* CONFIGURACION GENERAL */
+.hero h1{
+    font-size: 29px;
+}
+
+.hero p{
+    font-size: 29px;
+}
+/*! =========== FIN DEL HERO (1RA SECTION) =========== */
+/*! =========== SERVICIOS (2DA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.servicios{
+    background-color: #F1E5E7;
+    text-align: center;
+}
+
+.servicios h2{
+    color: #684700;
+    padding: 18px;
+    font-size: 35px;
+}
+
+
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.servicios .servicios-contenedor{
+    height: 45vh;
+
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+
+/* CONFIGURACION DE LAS TARJETAS DE SERVICIOS */
+.servicios .servicios-contenedor div{
+    width: 150px; height: 22vh;
+}
+.servicios .servicios-contenedor div:hover{
+    width: 200px; height: 35vh;
+}
+
+
+.servicios .servicios-contenedor img{
+    height: 150px;width: 150px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+        border-radius: 50%;
+    box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+        -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+}
+.servicios .servicios-contenedor img:hover{
+    height: 200px;width: 200px;
+}
+
+.servicios .servicios-contenedor .boton1{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 15px;padding-left: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+.servicios .servicios-contenedor .boton2{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 15px;padding-left: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+.servicios .servicios-contenedor .boton3{
+    text-decoration: none;
+    background-color: #684700;
+    color: white;
+    padding-right: 15px;padding-left: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+}
+
+.servicios .servicios-contenedor a{
+    font-size: 20px;
+}
+
+/*! =========== FIN DEL SERVICIOS (2DA SECTION) =========== */
+
+/*! =========== DISENOS (3RA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.disenos{
+    height: 260vh;
+}
+
+.disenos-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.disenos .disenos-contenedor{
+    grid-template-columns: 350px 350px;
+}
+
+.img-3{
+    display: none
+}
+/*! =========== FIN DEL DISENOS (3RA SECTION) =========== */
+
+
+
+
+
+
+/*! ============================================ */
+/*! =========== INICIO PIE DE PAGINA =========== */
+/*! ============================================ */
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.footer-contenedor{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+/* INICIO DEL BARRA DE NAVEGACION */
+footer div .nav-footer{
+display: none;
+}
+/* FIN DE BARRA DE NAVEGACION */
+/*! ========================================= */
+/*! =========== FIN PIE DE PAGINA =========== */
+/*! ========================================= */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:785px){
+/*! =========== HERO (1RA SECTION) =========== */
+/* CONFIGURACION GENERAL */
+.hero h1{
+    font-size: 24px;
+}
+
+.hero p{
+    font-size: 24px;
+}
+/*! =========== FIN DEL HERO (1RA SECTION) =========== */
+/*! =========== SERVICIOS (2DA SECTION) =========== */
+
+/* CONFIGURACION GENERAL */
+.servicios{
+    background-color: #F1E5E7;
+    text-align: center;
+}
+
+.servicios h2{
+    color: #684700;
+    padding: 18px;
+    font-size: 35px;
+}
+
+
+/* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
+.servicios .servicios-contenedor{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+/*! =========== FIN DE SERVICIOS (2DA SECTION) =========== */
+/*! =========== DISENOS (3RA SECTION) =========== */
+
+.disenos{
+    height: 140vh;
+}
+
+.disenos .disenos-contenedor div h3{
+font-size: 16px;
+}
+/* CONFIGURACION DE LA GALERIA */
+.disenos .disenos-contenedor{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-column: span 2;
+}
+
+.img-5{
+    grid-row: span 2;
+}
+
+/*! =========== FIN DEL DISENOS (3RA SECTION) =========== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:785px){
+/*! ============================================ */
+/*! =========== INICIO PIE DE PAGINA =========== */
+/*! ============================================ */
+.footer-contenedor{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+footer .footer-contenedor .info-footer{
+    display: none;
+}
+/*! ========================================= */
+/*! =========== FIN PIE DE PAGINA =========== */
+/*! ========================================= */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px){
+/*! ======================================== */
+/*! =========== INICO ENCABEZADO =========== */
+/*! ======================================== */
+
+
+header nav ul li a{
+    color: #684700;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    width: 200px;height: 45px;
+    font-size: 30px;
+background-color: rgba(0, 0, 0, 0.288);}
+/*! ====================================== */
+/*! =========== FIN ENCABEZADO =========== */
+/*! ====================================== */
+
+
+/*! =========== INICIO DEL DISENOS (3RA SECTION) =========== */
+    .disenos{
+        height: 110vh;
+    }
+    .disenos .disenos-contenedor div h3{
+        font-size: 10px;
+}
+    .disenos .disenos-contenedor{
+        height: 110vh;
+        width: 100%;
+    
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+    }
+/*! =========== FIN DEL DISENOS (3RA SECTION) =========== */
+
+
+/*! ============ INICIO ELEMENTOS FLOTANTES ============= */
+.whatsapp{
+    position: fixed;
+        right: 15px;
+}
+
+.whatsapp img{
+    height: 45px;width: 45px;
+}
+/*! ============= FIN ELEMENTOS FLOTANTES ============== */
+}
+/*! =================================== */
+/*! =========== FIN RESPONSIVE INDEX =========== */
+/*! =================================== */
+
+
+
+
+
+
+
+
+
+
+/*! ================================================ */
+/*! =========== INICIO RESPONSIVE HOTFIX =========== */
+/*! ================================================ */
+@media screen and (max-width:1300px){
+/*! =========== DISEÑOS (2DA SECTION) =========== */
+.disenos-contenedor-hotfix{
+    height: 60vh;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.disenos-tarjetas-hotfix{
+    height: 40vh;
+}
+.disenos-tarjetas-hotfix img{
+    height: 200px;width: 200px;
+}
+
+
+
+
+
+/*! =========== INICIO TACHAS (3RA SECTION) =========== */
+.tachas-contenedor{
+    height: 60vh;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.tachas-tarjetas{
+    height: 40vh;
+}
+.tachas-tarjetas img{
+    height: 200px;width: 200px;
+}
+
+}
+.tachas-tarjetas h3{
+    width: 200px;
+}
+/*! =========== FIN TACHAS (3RA SECTION) =========== */
+
+
+
+
+@media screen and (max-width:900px){
+    .disenos-contenedor-hotfix h1{
+        font-size: 20px;
+    }
+    .tachas-contenedor h1{
+        font-size: 20px;
+    }
+    .preguntas-frecuentes-contenedor-hotfix h3{
+        font-size: 20px;
+    }
+
+/*! =========== INICIO TACHAS (3RA SECTION) =========== */
+.tacha-4{
+    display: none;
+}
+.hotfix-dis-4{
+    display: none;
+}
+/*! =========== FIN TACHAS (3RA SECTION) =========== */
+
+.acordeon-hotfix{
+    width: 80%;
+}
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+
+.hero-hotfix iframe{
+    width: 80%;height: 50%;
+}
+
+/*! =========== DISEÑOS (2DA SECTION) =========== */
+.disenos-contenedor-hotfix{
+    height: 73vh;
+}
+
+
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.disenos-tarjetas-hotfix{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.disenos-tarjetas-hotfix img{
+    height: 100px;width: 100px;
+    border:black 2px solid;
+}
+
+.disenos-tarjetas-hotfix h3{
+    padding: 12px;
+}
+
+
+
+
+/*! =========== TACHAS (3RA SECTION) =========== */
+.tachas-contenedor{
+    height: 73vh;
+}
+
+.tachas-contenedor h1{
+    padding:20px;
+    font-size: 20px;
+    border-top: black solid 3px;
+}
+
+/* CONFIGURACION DE TARJETAS DE DISEÑOS */
+.tachas-tarjetas{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tachas-tarjetas img{
+    height: 100px;width: 100px;
+}
+
+.tachas-tarjetas h3{
+    margin: 0px;
+    padding-top: 10px;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:415px){
+    .hero-hotfix{
+        height: 50vh;
+    }
+.hero-hotfix iframe{
+    height: 70%;
+}
+.hero-hotfix div p{
+    font-size: 12px;
+}
+.disenos-contenedor-hotfix h1{
+    padding:20px;
+    font-size: 20px;
+}
+.preguntas-frecuentes-contenedor-hotfix{
+    height: 90vh;
+}
+}
+/*! ================================================ */
+/*! ============= FIN RESPONSIVE HOTFIX ============ */
+/*! ================================================ */
