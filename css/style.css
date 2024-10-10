@@ -116,7 +116,7 @@ background-color: rgba(0, 0, 0, 0.288);}
 
 /* CONFIGURACION GENERAL */
 footer{
-    background-image: url(../Img/fondos/fondo-footer.jpg);
+    background-image: url(../img/fondos/fondo-footer.jpg);
         background-repeat: no-repeat;
         background-position:center;
         background-size: cover;
@@ -228,7 +228,7 @@ footer .footer-contenedor .info-footer p{
 
 /* CONFIGURACION GENERAL */
 .hero{
-    background-image: url(../Img/fondos/fondo-hero.png);
+    background-image: url(../img/fondos/fondo-hero.png);
         background-repeat: no-repeat;
         background-position:center;
         background-size: cover;
