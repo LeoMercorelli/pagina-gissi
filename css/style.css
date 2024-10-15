@@ -93,7 +93,7 @@ header nav ul li a{
 header nav ul li a:hover{
     width: 200px;height: 45px;
     font-size: 30px;
-background-color: rgba(0, 0, 0, 0.288);}
+    background-color: rgba(0, 0, 0, 0.288);}
 /*! ====================================== */
 /*! =========== FIN ENCABEZADO =========== */
 /*! ====================================== */
@@ -122,17 +122,9 @@ footer{
         background-size: cover;
 }
 
-footer h2{
-    color: #684700;
-    padding: 18px;
-    font-size: 35px;
-    text-align: center;
-}
-
 /* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
 .footer-contenedor{
     height: 40vh;
-
     display: flex;
         justify-content: space-between;
         align-items: center;
@@ -235,11 +227,8 @@ footer .footer-contenedor .info-footer p{
         background-position:center;
         background-size: cover;
         background-attachment: fixed;
-
     text-align: center;
-
     height: 69vh;
-
     display: flex;
         flex-direction:column;
         justify-content: space-around;
@@ -256,10 +245,8 @@ footer .footer-contenedor .info-footer p{
     background-color: hsl(27, 97%, 44%);
     color: black;
     font-size: 23px;
-
     width: auto;
     padding: 10px;
-
     border: 1px solid black;
         border-radius: 25px;
 }
@@ -288,7 +275,6 @@ footer .footer-contenedor .info-footer p{
 /* CONFIGURACION DEL CONTENEDOR PARA LA DISTRIBUCION DEL CONTENIDO PRINCIPAL */
 .servicios .servicios-contenedor{
     height: 75vh;
-
     display: flex;
         justify-content: space-around;
         align-items: center;
@@ -323,10 +309,10 @@ footer .footer-contenedor .info-footer p{
     color: white;
     padding-right: 30px;padding-left: 30px;
     padding-top: 10px;padding-bottom: 10px;
-        border-radius: 5px;
-        box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
-        -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
-        -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
 }
 .servicios .servicios-contenedor .boton2{
     text-decoration: none;
@@ -1029,6 +1015,7 @@ header nav ul li a:hover{
 .disenos .disenos-contenedor{
     grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: 250px 250px 250px;
+}
 }
 /*!? ============= FIN DE LA PRIMERA MQ (INDEX) ============= */
 

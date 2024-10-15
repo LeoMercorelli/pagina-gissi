@@ -1,0 +1,60 @@
+.hero-laser{
+    height:65vh;
+    background-color: #F1E5E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div{
+        width: 700px;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+.disenos-contenedor-laser{
+    height: 73vh;
+    background-color: #EC94D0;
+    h1{
+        text-align: center;
+        padding:30px;
+        font-size: 30px;
+    }
+    .disenos-tarjetas-laser{
+        text-align: center;
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            img{
+            height: 300px;width: 300px;
+            border:black 2px solid;
+            border-radius: 50%;
+            box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            }
+            h3{
+                padding: 20px;
+            }
+        }
+    }
+}
+
+
+.preguntas-frecuentes-contenedor-laser{
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1E5E7;
+    h3{
+        margin: 30px;
+        font-size: 30px;
+    }
+    .acordeon-laser{
+        width: 900px;
+        margin: 30px;
+    }
+}

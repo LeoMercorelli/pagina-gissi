@@ -1,0 +1,110 @@
+@media screen and (max-width:1700px){
+    .disenos{
+        height: 130vh;
+        .disenos-contenedor{
+            grid-template-columns: 250px 250px 250px 250px;
+            grid-template-rows: 250px 250px 250px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1250px){
+
+    .hero{
+        h1{
+            font-size: 29px;
+        }
+        p{
+            font-size: 29px;
+        }
+    }
+
+    .servicios{
+        background-color: #F1E5E7;
+        text-align: center;
+        h2{
+            color: #684700;
+            padding: 18px;
+            font-size: 35px;
+        }
+        .servicios-contenedor{
+            height: 35vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            a{
+                font-size: 20px;
+            }
+            div{
+                width: 150px; height: 22vh;
+                &:hover{
+                    width: 200px; height: 35vh;
+                }
+            }
+            img{
+                height: 150px;width: 150px;
+                margin-bottom: 25px;
+                border: 1px solid black;
+                border-radius: 50%;
+                box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+                -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+                -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+                &:hover{
+                    height: 200px;width: 200px;
+                }
+            }
+            .boton1{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 15px;padding-left: 15px;
+                padding-top: 5px;padding-bottom: 5px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            }
+            .boton2{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 15px;padding-left: 15px;
+                padding-top: 5px;padding-bottom: 5px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            }
+            .boton3{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 15px;padding-left: 15px;
+                padding-top: 5px;padding-bottom: 5px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            }
+        }
+    }
+
+    .disenos{
+        .disenos-contenedor{
+            grid-template-columns: 1fr 1fr 1fr;
+            .tarj-2{
+                display: none
+            }
+            .tarj-3{
+                grid-column: span 2;
+            }
+            .tarj-8{
+                display: none
+            }
+            .tarj-9{
+                display: none
+            }
+        }
+    }
+}

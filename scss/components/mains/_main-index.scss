@@ -1,0 +1,177 @@
+.hero{
+    background-image: url(../img/fondos/fondo-hero.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 69vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    h1{
+        font-size: 37px;
+        color: #684700;
+    }
+    a{
+        text-decoration: none;
+        background-color: hsl(27, 97%, 44%);
+        color: black;
+        font-size: 23px;
+        width: auto;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+    p{
+        font-size: 37px;
+        color: #684700;
+    }
+}
+
+.servicios{
+    background-color: #F1E5E7;
+    text-align: center;
+    h2{
+        color: #684700;
+        padding: 18px;
+        font-size: 35px;
+    }
+    .servicios-contenedor{
+        height: 75vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a{
+            font-size: 25px;
+        }
+
+        div{
+            width: 300px; height: 45vh;
+            &:hover{
+                width: 400px; height: 70vh;
+            }
+        }
+        img{
+            height: 300px;width: 300px;
+            margin-bottom: 50px;
+            border: 1px solid black;
+            border-radius: 50%;
+            box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            -webkit-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            -moz-box-shadow: 18px 18px 5px 0px rgba(0,0,0,0.62);
+            &:hover{
+                height: 400px;width: 400px;
+            }
+        }
+
+        .bordados-tarjeta{
+            .boton1{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 30px;padding-left: 30px;
+                padding-top: 10px;padding-bottom: 10px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            }
+        }
+        
+
+        .laser-tarjeta{
+            .boton2{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 30px;padding-left: 30px;
+                padding-top: 10px;padding-bottom: 10px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                }
+            }
+        
+
+        .hotfix-tarjeta{
+            .boton3{
+                text-decoration: none;
+                background-color: #684700;
+                color: white;
+                padding-right: 30px;padding-left: 30px;
+                padding-top: 10px;padding-bottom: 10px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -webkit-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+                -moz-box-shadow: 10px 10px 8px 1px rgba(0,0,0,0.43);
+            }
+        }
+    }
+    
+}
+
+
+
+.disenos{
+    height: 170vh;
+    text-align: center;
+    background-color: white;
+
+    h2{
+        color: #684700;
+        padding: 18px;
+        font-size: 35px;
+    }
+
+    .grilla-contenedor{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        div{
+            div{
+                position: relative;
+                box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+                -webkit-box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+                -moz-box-shadow: 11px 11px 23px 10px rgba(0,0,0,0.82);
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                h3{
+                    position: absolute;
+                    bottom: 0px;
+                    background-color: #d6970f60;
+                    width: 100%;
+                    text-align: end;
+                    padding-right: 15px;
+                }
+            }
+        }
+
+        .disenos-contenedor{
+            display: grid;
+            grid-template-columns: 350px 350px 350px 350px;
+            grid-template-rows: 350px 350px 350px;
+            gap: 50px;
+
+            .tarj-1{
+                grid-row: span 2;
+            }
+
+            .tarj-3{
+                grid-column: span 2;
+            }
+
+            .tarj-5{
+                grid-row: span 2;
+            }
+        }
+        
+    }
+
+}
